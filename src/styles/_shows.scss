@@ -10,6 +10,10 @@ min-height: 50vw;
         gap: 24px;
         margin-top: 44px;
 
+        @media (max-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
+
         &--is-active{
             display: grid;
         }
@@ -26,6 +30,10 @@ min-height: 50vw;
         display: flex;
         justify-content: center;
 
+        @media (max-width: 768px){
+            white-space: nowrap;
+        }
+
         &__button{
             color: variaveis.$corTextoSecundario;
             border: none;
@@ -37,6 +45,10 @@ min-height: 50vw;
 
             &--is-active{
                 border-color: variaveis.$corTextoSecundario;
+            }
+
+            @media (max-width: 768px){
+                font-size: 16px;
             }
             
         }

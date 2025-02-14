@@ -197,7 +197,10 @@
     </section>
 
     <section class="image-text-section image-text-section--image-full-width">
-        <img src="./imgs/fundo_rei_leao.png" alt="Rei Leao">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./imgs/fundo_rei_leao_celular.png"/>
+            <img src="./imgs/fundo_rei_leao.png" alt="Rei Leao">
+        </picture>
         <div class="image-text-section__text-container image-text-section--image-full-width__text-container">
             <h2 class="title">Baixe Filmes e Séries</h2>
             <p class="text--big">
@@ -207,7 +210,7 @@
     </section>
 
     <section class="available-devices">
-        <h2 class="title">Disponível nos seus dispositivos facoritos</h2>
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
         <ul class="available-devices__list">
             <li class="available-devices__list__item">
                 <img src="./imgs/dispositivos/computador.png" alt="Computador">

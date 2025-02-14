@@ -24,6 +24,10 @@
         margin-bottom: 15px;
         justify-content: center;
 
+        @media (max-width: 768px){
+            flex-wrap: wrap;
+        }
+
         a{
             display: inline-block;
             color: #F9F9F9;
